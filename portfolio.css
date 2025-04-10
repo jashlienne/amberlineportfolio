@@ -335,11 +335,14 @@ label {
 
 
 footer {
+    display: flex;            /* Use flexbox layout */
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
     color: #ffffff;
     background-color: #363FAA;
-    text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
